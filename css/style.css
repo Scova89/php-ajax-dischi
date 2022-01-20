@@ -1,0 +1,48 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    background-color: rgb(30 45 59);
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li{
+    text-align: center;
+    width: 150px;
+    height: 300px;
+    margin: 30px;
+    background-color: rgb(46 58 70);
+}
+
+h3{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.397);
+    
+}
+
+img{
+    padding: 15px;
+    width: 100%;
+    object-fit: cover;
+}
